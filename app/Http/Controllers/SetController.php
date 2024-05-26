@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\Set;
 use App\Http\Requests\StoreSetRequest;
 use App\Http\Requests\UpdateSetRequest;
 use App\Http\Resources\SetResource;
+use App\Models\Set;
 
 class SetController extends Controller
 {
