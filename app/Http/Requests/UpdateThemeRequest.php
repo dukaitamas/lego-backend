@@ -11,7 +11,7 @@ class UpdateThemeRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -22,7 +22,15 @@ class UpdateThemeRequest extends FormRequest
     public function rules(): array
     {
         return [
-            //
+            "name" => "required|string|max:50",
+            "firstReleased" => "required|integer|digits:4",
+            "lastReleased" => "required|integer|digits:4",
+
+            // or
+            // "name" => "string|max:50",
+            // "firstReleased" => "required|integer",
+            // "lastReleased" => "required|integer",
+
         ];
     }
 }

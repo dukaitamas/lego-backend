@@ -11,7 +11,7 @@ class UpdateSetRequest extends FormRequest
      */
     public function authorize(): bool
     {
-        return false;
+        return true;
     }
 
     /**
@@ -29,6 +29,18 @@ class UpdateSetRequest extends FormRequest
            'setName' => 'required|string|max:255',
            'minifigs' => 'required|integer|digits:3',
             'pieces' => 'required|integer|digits:3'
+
+
+        //     // or
+        //     'number' => 'required|integer|max:255',
+        //     'themeId' => 'required|integer',
+        //    'subtheme' => 'string|max:255',
+        //     'year' => 'required|integer|',
+        //    'setName' => 'string|max:255',
+        //    'minifigs' => 'required|integer',
+        //     'pieces' => 'required|integer'
+
+
         ];
     }
 }
