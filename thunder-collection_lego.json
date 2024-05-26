@@ -1,0 +1,266 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "lego",
+    "collectionId": "b708839f-6e42-4edf-bda1-9e1cf2c0330c",
+    "dateExported": "2024-05-26T18:53:24.022Z",
+    "version": "1.2",
+    "folders": [
+        {
+            "_id": "5328825e-6e07-4730-b27f-6bd9779443c8",
+            "name": "sets",
+            "containerId": "",
+            "created": "2024-05-26T16:27:32.893Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "72d1ba69-30a8-4e2a-b3f0-cec6191b6db3",
+            "name": "themes",
+            "containerId": "",
+            "created": "2024-05-26T16:27:45.156Z",
+            "sortNum": 30000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "9645fdc6-695e-4052-a471-f71e644dd7df",
+            "colId": "b708839f-6e42-4edf-bda1-9e1cf2c0330c",
+            "containerId": "5328825e-6e07-4730-b27f-6bd9779443c8",
+            "name": "Get all",
+            "url": "http://127.0.0.1:8000/api/sets",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-26T16:29:29.699Z",
+            "modified": "2024-05-26T16:46:35.742Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "8cb9b145-b1bd-4aca-8ee2-b2da5f157d3c",
+            "colId": "b708839f-6e42-4edf-bda1-9e1cf2c0330c",
+            "containerId": "5328825e-6e07-4730-b27f-6bd9779443c8",
+            "name": "Create set",
+            "url": "http://127.0.0.1:8000/api/sets",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-26T16:33:50.339Z",
+            "modified": "2024-05-26T16:47:59.430Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"number\": \"1054-1\",\n  \"themeId\":\"102\",\n  \"subtheme\":\"Ferries\",\n  \"year\": \"1999\",\n  \"setName\":\"Stena Line Ferry\",\n  \"minifigs\":\"0\",\n  \"pieces\":\"212\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "3e074ea5-57fa-42d1-9a07-1f3f35bf3477",
+            "colId": "b708839f-6e42-4edf-bda1-9e1cf2c0330c",
+            "containerId": "5328825e-6e07-4730-b27f-6bd9779443c8",
+            "name": "Get one set",
+            "url": "http://127.0.0.1:8000/api/sets/1",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2024-05-26T16:41:07.141Z",
+            "modified": "2024-05-26T16:48:01.888Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "da98c3a0-155a-4083-a245-b3cd6c1f091f",
+            "colId": "b708839f-6e42-4edf-bda1-9e1cf2c0330c",
+            "containerId": "5328825e-6e07-4730-b27f-6bd9779443c8",
+            "name": "Update set",
+            "url": "http://127.0.0.1:8000/api/sets/4",
+            "method": "PATCH",
+            "sortNum": 40000,
+            "created": "2024-05-26T16:44:36.764Z",
+            "modified": "2024-05-26T16:54:40.839Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \n  \"number\":\"7572-1\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "11861701-70eb-4e97-8a3c-cde2b5deacba",
+            "colId": "b708839f-6e42-4edf-bda1-9e1cf2c0330c",
+            "containerId": "5328825e-6e07-4730-b27f-6bd9779443c8",
+            "name": "Delete set",
+            "url": "http://127.0.0.1:8000/api/sets/12",
+            "method": "DELETE",
+            "sortNum": 50000,
+            "created": "2024-05-26T16:49:28.178Z",
+            "modified": "2024-05-26T16:50:08.516Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "0eb2cdc6-dd8b-484f-8e75-34213ddc5fd6",
+            "colId": "b708839f-6e42-4edf-bda1-9e1cf2c0330c",
+            "containerId": "72d1ba69-30a8-4e2a-b3f0-cec6191b6db3",
+            "name": "Get all",
+            "url": "http://127.0.0.1:8000/api/themes",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2024-05-26T16:56:44.807Z",
+            "modified": "2024-05-26T16:58:24.725Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "edd4b8c2-8e26-499c-a13f-66cb294ea3e4",
+            "colId": "b708839f-6e42-4edf-bda1-9e1cf2c0330c",
+            "containerId": "72d1ba69-30a8-4e2a-b3f0-cec6191b6db3",
+            "name": "Get one",
+            "url": "http://127.0.0.1:8000/api/themes/5",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2024-05-26T16:57:37.294Z",
+            "modified": "2024-05-26T17:08:00.549Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "742c92ea-7be0-4bfb-ae9a-cb2c02d4ed3d",
+            "colId": "b708839f-6e42-4edf-bda1-9e1cf2c0330c",
+            "containerId": "72d1ba69-30a8-4e2a-b3f0-cec6191b6db3",
+            "name": "Delete",
+            "url": "http://127.0.0.1:8000/api/themes/16",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-05-26T16:59:13.013Z",
+            "modified": "2024-05-26T16:59:53.436Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ]
+        },
+        {
+            "_id": "7f679a7d-1069-4abc-a854-48b6fa517b7b",
+            "colId": "b708839f-6e42-4edf-bda1-9e1cf2c0330c",
+            "containerId": "72d1ba69-30a8-4e2a-b3f0-cec6191b6db3",
+            "name": "Update theme",
+            "url": "http://127.0.0.1:8000/api/themes/141",
+            "method": "PATCH",
+            "sortNum": 90000,
+            "created": "2024-05-26T17:00:40.197Z",
+            "modified": "2024-05-26T17:04:11.517Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Unikitty\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "35bc25e9-9271-4279-9115-066943b2cd83",
+            "colId": "b708839f-6e42-4edf-bda1-9e1cf2c0330c",
+            "containerId": "72d1ba69-30a8-4e2a-b3f0-cec6191b6db3",
+            "name": "Create theme",
+            "url": "http://127.0.0.1:8000/api/themes",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-05-26T17:03:58.860Z",
+            "modified": "2024-05-26T17:07:46.203Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "User-Agent",
+                    "value": "Thunder Client (https://www.thunderclient.com)",
+                    "isDisabled": true
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"Vidiyo\",\n  \"firstReleased\":\"2021\",\n\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "H3CjY94SBbCMDIZtL3mU-wyl05c3lY9BvMDd76HX_-BgRxDJhmNY6V1LcosilIFy_w0mDjqmoU0ghTfHSEOeJQ"
+}
