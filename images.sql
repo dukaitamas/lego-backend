@@ -66,7 +66,7 @@ UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/65' WHERE id 
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/66' WHERE id = 66;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/67' WHERE id = 67;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/68' WHERE id = 68;
-ATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/69' WHERE id = 69;
+UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/69' WHERE id = 69;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/70' WHERE id = 70;
   UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/71' WHERE id = 71;
   UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/72' WHERE id = 72;
@@ -91,7 +91,7 @@ UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/70' WHERE id 
   UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/91' WHERE id = 91;
   UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/92' WHERE id = 92;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/93' WHERE id = 93;
- UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/94' WHERE id = 94;
+UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/94' WHERE id = 94;
  UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/95' WHERE id = 95;
  UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/96' WHERE id = 96;
  UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/97' WHERE id = 97;
