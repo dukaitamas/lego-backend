@@ -31,6 +31,9 @@ class UpdateSetRequest extends FormRequest
             'pieces' => 'required|integer|digits:3'
 
 
+
+
+
         //     // or
         //     'number' => 'required|integer|max:255',
         //     'themeId' => 'required|integer',
