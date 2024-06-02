@@ -22,13 +22,13 @@ class StoreSetRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'number' => 'required|integer|max:255',
-            'themeId' => 'required|integer|digits:3',
+            'number' => 'required|string|max:255', // Módosítva string-re
+            'themeId' => 'required|integer',
             'subtheme' => 'required|string|max:255',
-            'year' => 'required|integer|digits:4',
+            'year' => 'required|integer',
             'setName' => 'required|string|max:255',
-            'minifigs' => 'required|integer|digits:3',
-            'pieces' => 'required|integer|digits:3',
+            'minifigs' => 'required|integer', // digits:3 eltávolítva
+            'pieces' => 'required|integer', // digits:3 eltávolítva
         ];
     }
 }

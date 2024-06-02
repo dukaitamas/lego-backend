@@ -25,6 +25,7 @@ class UpdateThemeRequest extends FormRequest
             "name" => "required|string|max:50",
             "firstReleased" => "required|integer|digits:4",
             "lastReleased" => "required|integer|digits:4",
+            'IMAGEURL' => 'nullable|string|max:255|url'
 
             // or
             // "name" => "string|max:50",

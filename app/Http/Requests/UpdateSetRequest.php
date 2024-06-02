@@ -22,27 +22,14 @@ class UpdateSetRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'number' => 'required|integer|max:255',
-            'themeId' => 'required|integer|digits:3',
-           'subtheme' => 'required|string|max:255',
+
+            'number' => 'required|string|max:255', // Módosítva string-re
+            'themeId' => 'required|integer', // digits:3 eltávolítva
+            'subtheme' => 'required|string|max:255',
             'year' => 'required|integer|digits:4',
-           'setName' => 'required|string|max:255',
-           'minifigs' => 'required|integer|digits:3',
-            'pieces' => 'required|integer|digits:3'
-
-
-
-
-
-        //     // or
-        //     'number' => 'required|integer|max:255',
-        //     'themeId' => 'required|integer',
-        //    'subtheme' => 'string|max:255',
-        //     'year' => 'required|integer|',
-        //    'setName' => 'string|max:255',
-        //    'minifigs' => 'required|integer',
-        //     'pieces' => 'required|integer'
-
+            'setName' => 'required|string|max:255',
+            'minifigs' => 'required|integer', // digits:3 eltávolítva
+            'pieces' => 'required|integer', // digits:3 eltávolítva
 
         ];
     }
