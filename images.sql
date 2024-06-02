@@ -1,5 +1,7 @@
 -- ALTER TABLE themes ADD COLUMN IMAGEURL VARCHAR(255);
 
+-- terminal : php artisan storage:link
+
 
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/1.jpg' WHERE id = 1;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/2.jpg' WHERE id = 2;
