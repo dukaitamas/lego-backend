@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('themes', function (Blueprint $table) {
             $table->id();
             $table->timestamps();
+            // $table->IMAGEURL();
         });
     }
 
