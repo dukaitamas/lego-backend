@@ -10,6 +10,8 @@ class Theme extends Model
     use HasFactory;
 
     public $timestamps = false;
+    
+    protected $perPage = 10;
 
     protected $fillable = [
         'name',

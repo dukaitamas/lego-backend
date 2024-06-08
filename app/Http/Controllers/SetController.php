@@ -6,7 +6,9 @@ use App\Http\Requests\StoreSetRequest;
 use App\Http\Requests\UpdateSetRequest;
 use App\Http\Resources\SetResource;
 use App\Models\Set;
+use Hamcrest\Core\Set as CoreSet;
 use Illuminate\Http\Request;
+use Ramsey\Collection\Set as CollectionSet;
 
 class SetController extends Controller
 {
@@ -15,9 +17,36 @@ class SetController extends Controller
      */
     public function index()
     {
-        
         return SetResource::collection(Set::all());
+
+        // $sets  = Set::where(column: 'number', operator: '>', value: 100)
+        //     ->orderBy(column: 'number', direction: 'DESC')
+        //     ->paginate(perPage: 12);
+
+        // return view ('home.index', [
+        //     'sets' => $sets,
+        // ]);
+
+
+
+        // $sets = Set::paginate(11); // Ez lekéri az összes bejegyzést, oldalak szerint
+        // return SetResource::collection($sets);
+
+        // $posts = Set::paginate(13); // Ez lekéri az összes bejegyzést, oldalak szerint
+        // return response()->json($posts);
+        // return response()->json(SetResource::collection($posts));
+        // return SetResource::collection(Set::all($posts));
+        // return SetResource::collection(Set::paginate(13));
+
     }
+
+    // public function index(Request $request)
+    // {
+    //     $data = Set::paginate(10); // 10 az oldalankénti rekordok száma
+
+    //     return view('your_view', ['data' => $data]);
+    // }
+
 
     // public function index(Request $request)
     // {
