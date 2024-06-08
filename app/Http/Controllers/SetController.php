@@ -6,6 +6,7 @@ use App\Http\Requests\StoreSetRequest;
 use App\Http\Requests\UpdateSetRequest;
 use App\Http\Resources\SetResource;
 use App\Models\Set;
+use Illuminate\Http\Request;
 
 class SetController extends Controller
 {
@@ -14,8 +15,22 @@ class SetController extends Controller
      */
     public function index()
     {
+        
         return SetResource::collection(Set::all());
     }
+
+    // public function index(Request $request)
+    // {
+    //     $perPage = $request->input('per_page', 10); // Alapértelmezett oldalméret: 10
+    //     $sets = Set::paginate($perPage);
+    //     return SetResource::collection($sets);
+    // }
+
+
+
+
+
+
 
     // /**
     //  * Show the form for creating a new resource.

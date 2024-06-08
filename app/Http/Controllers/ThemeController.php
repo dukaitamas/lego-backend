@@ -6,6 +6,8 @@ use App\Models\Theme;
 use App\Http\Requests\StoreThemeRequest;
 use App\Http\Requests\UpdateThemeRequest;
 use App\Http\Resources\ThemeResource;
+use Illuminate\Http\Request;
+
 
 class ThemeController extends Controller
 {
@@ -16,6 +18,20 @@ class ThemeController extends Controller
     {
         return ThemeResource::collection(Theme::all());
     }
+
+    // public function index(Request $request)
+    // {
+    //     $perPage = $request->input('per_page', 10); // Alapértelmezett oldalméret: 10
+    //     $themes = Theme::paginate($perPage);
+    //     return ThemeResource::collection($themes);
+    // }
+
+
+
+
+
+
+
 
     // /**
     //  * Show the form for creating a new resource.

@@ -24,7 +24,7 @@ UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/18.jpg' WHERE
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/19.jpg' WHERE id = 19;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/20.jpg' WHERE id = 20;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/21.jpg' WHERE id = 21;
-UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/22.jpg' WHERE id = 22;
+UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/22.jpeg' WHERE id = 22;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/23.jpg' WHERE id = 23;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/24.jpg' WHERE id = 24;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/25.jpg' WHERE id = 25;
@@ -36,7 +36,7 @@ UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/30.jpg' WHERE
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/31.jpg' WHERE id = 31;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/32.jpg' WHERE id = 32;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/33.jpg' WHERE id = 33;
-UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/34.jpg' WHERE id = 34;
+UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/34.jpeg' WHERE id = 34;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/35.jpg' WHERE id = 35;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/36.jpg' WHERE id = 36;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/37.jpg' WHERE id = 37;
@@ -99,7 +99,7 @@ UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/93.jpg' WHERE
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/94.jpg' WHERE id = 94;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/95.jpg' WHERE id = 95;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/96.jpg' WHERE id = 96;
-UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/97.jpg' WHERE id = 97;
+UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/97.jpeg' WHERE id = 97;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/98.jpg' WHERE id = 98;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/99.jpg' WHERE id = 99;
 UPDATE themes set IMAGEURL = 'http://127.0.0.1:8000/storage/images/100.jpg' WHERE id = 100;
