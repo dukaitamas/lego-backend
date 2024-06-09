@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Auth\LoginController;
+use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\SetController;
 use App\Http\Controllers\ThemeController;
 use Illuminate\Http\Request;
@@ -23,3 +25,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::apiResource('sets', SetController::class);
 
 Route::apiResource('themes', ThemeController::class);
+
+Route::post('/register', [RegisterController::class, 'register']);
+
+Route::post('/login', [LoginController::class, 'login']);
+
+
