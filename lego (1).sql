@@ -1045,7 +1045,7 @@ INSERT INTO `sets` (`id`, `number`, `themeId`, `subtheme`, `year`, `setName`, `m
 (997, '536-2', 106, 'Basic Set', 1967, 'Designer Set', 0, 536),
 (998, '605-4', 106, 'Basic Set', 1963, 'Wheel Toy', 0, 180),
 (999, '610-3', 106, 'Basic Set', 1965, 'Super Wheel Toy Set (long box version)', 0, 304),
-(1000, '610-4', 106, 'Basic Set', 1965, 'Super Wheel Toy Set (tall box version)', 0, 304),
+(1000, '610-4', 106, 'Basic Set', 1965, 'Super Wheel Toy Set (tall box version)', 0, 304);
 
 
 
