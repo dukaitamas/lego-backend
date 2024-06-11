@@ -19,6 +19,10 @@ class SetController extends Controller
     {
         return SetResource::collection(Set::all());
 
+        // $sets = Set::paginate(12);
+        // return SetResource::collection($sets);
+
+
         // $sets  = Set::where(column: 'number', operator: '>', value: 100)
         //     ->orderBy(column: 'number', direction: 'DESC')
         //     ->paginate(perPage: 12);
