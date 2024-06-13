@@ -8,6 +8,7 @@ use App\Http\Resources\SetResource;
 use App\Models\Set;
 use Hamcrest\Core\Set as CoreSet;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Ramsey\Collection\Set as CollectionSet;
 
 class SetController extends Controller
@@ -17,7 +18,15 @@ class SetController extends Controller
      */
     public function index()
     {
+
+        // $sets = DB :: table ( ' sets ' ) -> simplePaginate ( 15 );
+        // return SetResource::collection($sets);
+
         return SetResource::collection(Set::all());
+
+        // Létrehozzuk a query-t, majd pagináljuk azt
+    // $sets = Set::query()->paginate(10);
+    // return SetResource::collection($sets);
 
         // $sets = Set::paginate(12);
         // return SetResource::collection($sets);
