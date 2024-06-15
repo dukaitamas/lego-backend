@@ -15,14 +15,25 @@ class SetController extends Controller
 {
     /**
      * Display a listing of the resource.
+     *
      */
+
+    // public function index(Request $request)
+    // {
+    //     $perPage = $request->input('per_page', 10); // Default per page is 10
+    //     $sets = Set::paginate($perPage);
+    //     return SetResource::collection($sets);
+
+
     public function index()
     {
+
+        return SetResource::collection(Set::all());
 
         // $sets = DB :: table ( ' sets ' ) -> simplePaginate ( 15 );
         // return SetResource::collection($sets);
 
-        return SetResource::collection(Set::all());
+
 
         // Létrehozzuk a query-t, majd pagináljuk azt
     // $sets = Set::query()->paginate(10);

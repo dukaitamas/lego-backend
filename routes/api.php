@@ -30,4 +30,8 @@ Route::post('/register', [RegisterController::class, 'register']);
 
 Route::post('/login', [LoginController::class, 'login']);
 
+Route::get('/sets', [SetController::class, 'index']);
+
+Route::get('/themes', [ThemeController::class, 'index']);
+
 
