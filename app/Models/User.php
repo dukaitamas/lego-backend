@@ -13,7 +13,14 @@ class User extends Authenticatable
     use HasApiTokens, HasFactory, Notifiable;
 
 
-    
+
+     /**
+     * Indicates if the model should be timestamped.
+     *
+     * @var bool
+     */
+    public $timestamps = true; // Ez adja hozzá a created_at és updated_at mezőket az DBForge-ben sql-hez
+
     /**
      * The attributes that are mass assignable.
      *
