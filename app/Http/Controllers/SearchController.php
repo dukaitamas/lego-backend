@@ -22,12 +22,14 @@ class SearchController extends Controller
 
     {
         $query = $request->input('query');
-        $sets = Set::where('setName', 'LIKE', "%{$query}%")->get();
-        $themes = Theme::where('name', 'LIKE', "%{$query}%")->get();
+        $sets = Set::where('setName', 'LIKE', "%{$query}%")->paginate(12);
+        $themes = Theme::where('name', 'LIKE', "%{$query}%")->paginate(12);
 
         return response()->json([
-            'sets' => SetResource::collection($sets),
-            'themes' => ThemeResource::collection($themes),
+            // 'sets' => SetResource::collection($sets),
+            // 'themes' => ThemeResource::collection($themes),
+            'sets' => $sets,
+            'themes' => $themes,
         ]);
     }
 
