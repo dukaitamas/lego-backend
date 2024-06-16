@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\Auth\LoginController;
 use App\Http\Controllers\Auth\RegisterController;
+use App\Http\Controllers\SearchController;
 use App\Http\Controllers\SetController;
 use App\Http\Controllers\ThemeController;
 use Illuminate\Http\Request;
@@ -33,5 +34,8 @@ Route::post('/login', [LoginController::class, 'login']);
 Route::get('/sets', [SetController::class, 'index']);
 
 Route::get('/themes', [ThemeController::class, 'index']);
+
+Route::get('/search', [SearchController::class, 'search']);
+
 
 
