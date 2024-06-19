@@ -1,3 +1,10 @@
+Vuejs3 frontend + laravel 10 backend --> xampp, thunderclient, dbforge, vscode
+necessary steps to run code : vscode-> Response limit over 2mb- to 30 mb , xampp extensions enable: sodium, ZIP-> pictures in folders how to do it.
+If database doesn't want to run check legoFull and other sql files to give the right commands to MySql software: alter table... update imageurl...
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
