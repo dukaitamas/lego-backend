@@ -6,6 +6,12 @@ use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
 class Kernel extends HttpKernel
 {
+    //CheckRole.php 
+    protected $routeMiddleware = [
+        // Other middleware...
+        'role' => \App\Http\Middleware\CheckRole::class,
+    ];
+
     /**
      * The application's global HTTP middleware stack.
      *

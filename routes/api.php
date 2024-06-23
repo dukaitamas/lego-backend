@@ -38,4 +38,22 @@ Route::get('/themes', [ThemeController::class, 'index']);
 Route::get('/search', [SearchController::class, 'search']);
 
 
+// Route::middleware('auth:api')->group(function () {
+//     Route::get('user', function () {
+//         return auth()->user();
+//     });
 
+//     Route::get('search', [SearchController::class, 'search']);
+
+//     Route::resource('sets', SetController::class)->except(['create', 'edit']);
+//     Route::resource('themes', ThemeController::class)->except(['create', 'edit']);
+// });
+
+// Route::middleware(['auth:api', 'role:admin'])->group(function () {
+//     Route::post('sets', [SetController::class, 'store']);
+//     Route::put('sets/{set}', [SetController::class, 'update']);
+//     Route::delete('sets/{set}', [SetController::class, 'destroy']);
+//     Route::post('themes', [ThemeController::class, 'store']);
+//     Route::put('themes/{theme}', [ThemeController::class, 'update']);
+//     Route::delete('themes/{theme}', [ThemeController::class, 'destroy']);
+// });
