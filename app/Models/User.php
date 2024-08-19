@@ -10,7 +10,11 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Laravel\Sanctum\HasApiTokens;
 
-class User extends Authenticatable implements MustVerifyEmail
+//class User extends Authenticatable implements MustVerifyEmail
+
+class User extends Authenticatable
+//verifyemail kikapcsolása (nem akarom verifyolni külön emailekkel még)
+
 {
     use HasApiTokens, HasFactory, Notifiable;
 
