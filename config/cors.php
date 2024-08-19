@@ -19,7 +19,10 @@ return [
 
     'allowed_methods' => ['*'],
 
-    'allowed_origins' => ['*'],
+    'allowed_origins' => ['http://localhost:5173'],
+    //'allowed_origins' => ['*'],
+    //Az allowed_origins beállítást állítsd '*'-ra, hogy engedélyezze az összes origin-t,
+    // vagy konkrétan add meg a http://localhost:5173-at, ha csak azt szeretnéd engedélyezni.
 
     'allowed_origins_patterns' => [],
 
@@ -29,7 +32,7 @@ return [
 
     'max_age' => 0,
 
-    'supports_credentials' => false,
-    // 'supports_credentials' => true,
+    //'supports_credentials' => false,
+     'supports_credentials' => true,
 
 ];
