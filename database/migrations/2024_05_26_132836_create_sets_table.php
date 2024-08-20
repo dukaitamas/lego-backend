@@ -11,10 +11,17 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('sets', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
-        });
+        if (!Schema::hasTable('sets')) {
+            Schema::create('sets', function (Blueprint $table) {
+                $table->id();
+                $table->timestamps();
+            });
+        }
+
+        // Schema::create('sets', function (Blueprint $table) {
+        //     $table->id();
+        //     $table->timestamps();
+        // });
     }
 
     /**
